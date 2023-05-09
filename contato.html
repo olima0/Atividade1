@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="stylesheet" href="./css/form.css">
+    <link rel="stylesheet" href="./css/responsivo.css">
+    <title>Contato</title>
+</head>
+
+<body>
+    <header>
+        <figure>
+            <h1>CEFET-MG - Campus Varginha - Curso Técnico</h1>
+        </figure>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="curso.html">Curso</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <form>
+        <fieldset>
+            <legend>Contato</legend>
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">E-mail:</label>
+            <input type="text" id="email" name="email"><br>
+            <input type="radio" id="masc" name="sexo" value="Masculino">
+            <label for="masc">Masculino</label>
+            <input type="radio" id="fem" name="sexo" value="Feminino">
+            <label for="fem">Feminino</label><br>
+            <label for="est/cit">Estado/Cidade: </label>
+            <select name="est/cit" id="est/cit">
+                <option value="AC">AC</option>
+                <option value="AL">AL</option>
+                <option value="AM">AM</option>
+                <option value="AP">AP</option>
+                <option value="BA">BA</option>
+                <option value="CE">CE</option>
+                <option value="DF">DF</option>
+                <option value="ES">ES</option>
+                <option value="GO">GO</option>
+                <option value="MA">MA</option>
+                <option value="MG">MG</option>
+                <option value="MS">MS</option>
+                <option value="MT">MT</option>
+                <option value="PA">PA</option>
+                <option value="PB">PB</option>
+                <option value="PE">PE</option>
+                <option value="PI">PI</option>
+                <option value="PR">PR</option>
+                <option value="RJ">RJ</option>
+                <option value="RN">RN</option>
+                <option value="RO">RO</option>
+                <option value="RR">RR</option>
+                <option value="RS">RS</option>
+                <option value="SC">SC</option>
+                <option value="SE">SE</option>
+                <option value="SP">SP</option>
+                <option value="TO">TO</option>
+            </select><br>
+            <label for="file">Selecione um Arquivo:</label>
+            <input type="file" name="file" id="file"><br>
+            <label for="sj">Sujestões: </label><br>
+            <textarea name="sj" id="sj" cols="100" rows="5"></textarea><br>
+            <button type="submit"> <span>Enviar</span> </button>
+            <button type="reset"> <span>Limpar</span> </button>
+        </fieldset>
+    </form>
+
+    <footer>
+        <div>© copyleft</div>
+    </footer>
+</body>
