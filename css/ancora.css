@@ -2,6 +2,13 @@ section a {
     color: black;
 }
 
+section a:visited {
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
 section {
     height: 100vh;
 }
