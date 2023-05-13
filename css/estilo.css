@@ -63,11 +63,20 @@ main div ul li {
     list-style-type: disc;
 }
 
-footer {
-    min-height: calc(100vh - 80);
-    height: 2rem;
+
+html {
+    height: 100%;
+    min-height: 100%;
+}
+
+body {
     display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+footer {
     background-color: var(--first);
-    color: var(--second);
-    bottom: 0px;
+    color: white;
+    margin-top: auto;
 }
